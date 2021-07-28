@@ -49,7 +49,7 @@ var opc = ["tijera", "piedra",  "papel"];
 
 var opcMaquina = opc[ Math.floor((Math.random() * (3-0))+0) ];
 
-var opcJugador = opc[ Math.floor((Math.random() * (3-0))+0) ];;
+var opcJugador = opc[ Math.floor((Math.random() * (3-0))+0) ];
 
 function juego(opcMaquina, opcJugador){
 

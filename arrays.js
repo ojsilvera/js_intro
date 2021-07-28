@@ -19,7 +19,7 @@ var masFrutas =  frutas.pop("uvas")
 // agregar elementos al principio del arreglo
 var masFrutas =  frutas.unshift("coco")
 
-// leimina el primer elemento del arreglo
+// elimina el primer elemento del arreglo
 var masFrutas =  frutas.shift("coco")
 
 // leimina el primer elemento del arreglo
