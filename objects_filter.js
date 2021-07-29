@@ -8,6 +8,8 @@ var articulos = [
     {nombre: "Audifonos", cosot: 1700 },
 ];
 
+
+// Filtrado de objetos
 var articulosFiltrados = articulos.filter(function(articulo){
     return articulo.costo <= 500
 });
@@ -15,8 +17,26 @@ var articulosFiltrados = articulos.filter(function(articulo){
 //contiene el resultado del filtro
 articulosFiltrados
 
+//Mapea un objeto y obtienes una de sus proiedades
 var articulosNombre = articulos.map(function(articulo){
     return articulo.nombre
 });
 
 articulosNombre
+
+// encuentra un objeto
+var articulosNombre = articulos.find(function(articulo){
+    return articulo.nombre === "laptop"
+});
+
+// listado de articulos por campo
+articulos.forEach(function(articulo){
+    console.log(articulo.nombre);
+});
+
+//some genera true o false al encontrar concincidencias
+var articulosBaratos = articulos.some(function(articulo){
+    return articulo.costo <= 700
+});
+
+
