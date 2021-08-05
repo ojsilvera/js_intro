@@ -15,6 +15,8 @@ var miFuncion = function(a,b) {
 
 }
 
+miFuncion(1, 2)
+
 //interpolacion de textos 'texto ${variable}'
 
 function saludar(estudiante){
@@ -39,7 +41,7 @@ suma(1, 2);
 
 function suma(a, b){
 
-    return ra + b; // retorna el valor de la sumatoria
+    return r = a + b; // retorna el valor de la sumatoria
 }
 
 suma(1, 2);
