@@ -4,7 +4,7 @@ var frutas = ["manzana", "pera", "papaya", "melon"]
 console.log(frutas);
 
 // cantidad de elementos de un arreglo
-console.log(frutas,length);
+console.log(frutas.length);
 
 // llamado en cosola un elemento del arreglo
 //javascript inicia el conteo en 0
